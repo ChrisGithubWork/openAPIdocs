@@ -1,0 +1,9 @@
+# Base configuration
+version: '3'
+
+services:
+  bcf-rest-api-app:
+    build: ./app
+    container_name: bcf-rest-api
+    ports:
+      - 22850:80
